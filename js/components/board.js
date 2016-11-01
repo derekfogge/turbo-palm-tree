@@ -3,7 +3,7 @@ var ReactDOM = require('react-dom');
 
 var CardList = require('./list');
 
-var BoardList = function() {
+var Board = function() {
     return (
         <div className="board-list">
             <CardList />
@@ -13,4 +13,4 @@ var BoardList = function() {
     );
 };
 
-module.exports = BoardList;
+module.exports = Board;
