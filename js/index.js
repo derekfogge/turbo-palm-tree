@@ -3,8 +3,8 @@ require('babel-polyfill');
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Board = require('./components/board');
+var Card = require('./components/card');
 
 document.addEventListener('DOMContentLoaded', function() {
-    ReactDOM.render(<Board />, document.getElementById('app'));
+    ReactDOM.render(<Card />, document.getElementById('app'));
 });

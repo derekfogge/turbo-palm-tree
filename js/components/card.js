@@ -1,13 +1,24 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Card = function() {
-    var cardText = 'This is a card';
+var CardText = function() {
+    return (
+        <Card name="Derek Zoolander"/>
+    );
+};
+
+var Card = function(props) {
     return (
         <div className="card">
-            {cardText}
+            {props.name}
         </div>
     );
 };
 
+
+
+
+
+
 module.exports = Card;
+
